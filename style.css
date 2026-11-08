@@ -101,7 +101,7 @@ a:hover { opacity: .55; }
 
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 500px));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 200px));
   column-gap: 20px;
   row-gap: 34px;
   justify-content: center;
