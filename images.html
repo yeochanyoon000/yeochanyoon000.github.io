@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Selected photography work by Yeochan.">
+  <title>Work — Yeochan</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="site-config.js" defer></script>
+  <script src="work.js" defer></script>
+  <script src="images.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="index.html">Yeochan Yoon</a>
+    <nav aria-label="Main navigation">
+      <a class="active" href="images.html">Images</a>
+      <a href="info.html">Info</a>
+    </nav>
+  </header>
+
+  <main class="work-main">
+    <div id="work-grid" class="work-grid" aria-label="Selected photographs"></div>
+    <p id="work-error" class="image-error" hidden>
+      Add photographs to <code>assets/images/work/</code> and list their paths in <code>site-config.js</code>.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <!-- <span>Seoul, South Korea</span>
+    <span>© <span id="year"></span> Yeochan</span> -->
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-prev" id="lightbox-prev">
+      &#10094;
+    </button>
+
+    <img id="lightbox-image" src="" alt="">
+
+    <button class="lightbox-next" id="lightbox-next">
+      &#10095;
+    </button>
+  </div>
+</body>
+</html>
